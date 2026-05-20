@@ -2,37 +2,7 @@
 require_once __DIR__ . '/../config/config.php';
 ?>
 <?php include 'includes/header.php'; ?>
-    <header class="container-fluid bg-dark text-white">
-        <div class="row align-items-center">
-            <div class="col-6 d-flex align-items-center p-3">
-                <!-- Logo e Nome -->
-                <a href="index.html">
-                    <img alt="Logo do ISEP Ginásio" height="40" src="assets/img/gym125_white.png" class="me-3" />
-                </a>
-
-                <h3 class="mb-0">ISEP Ginásio</h3>
-            </div>
-            <div class="col-6 text-end p-3">
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        <i class="fa-regular fa-user me-2"></i> Utilizador
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-end">
-
-                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-key me-2"></i>Alterar password</a>
-
-                        </li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="login_form.html"><i
-                                    class="fa-solid fa-right-from-bracket me-2"></i>Sair</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </header>
+<?php include 'includes/nav.php'; ?>    
     <div class="container-fluid">
         <div class="row">
             <aside class="col-md-3 col-lg-2 bg-secondary text-white p-3 min-vh-100">
@@ -65,9 +35,4 @@ require_once __DIR__ . '/../config/config.php';
             </main>
         </div>
     </div>
-    <!-- Bootstrap JS and custom JS -->
-    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
-
-</body>
-
-</html>
+   <?php include 'includes/footer.php'; ?>
