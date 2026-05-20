@@ -1,4 +1,4 @@
-<script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="/isep_ginasio/private/assets/bootstrap/bootstrap.bundle.min.js"></script>
 
 </body>
 
