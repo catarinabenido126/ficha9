@@ -2,11 +2,11 @@
         <div class="row align-items-center">
             <div class="col-6 d-flex align-items-center p-3">
                 <!-- Logo e Nome -->
-                <a href="index.html">
-                    <img alt="Logo do ISEP Ginásio" height="40" src="assets/img/gym125_white.png" class="me-3" />
+                <a href="/isep_ginasio/private/index.php">
+                    <img alt="Logo do ISEP Ginásio" height="40" src="/isep_ginasio/assets/img/gym125_white.png" class="me-3" />
                 </a>
 
-                <h3 class="mb-0">ISEP Ginásio</h3>
+                <h3 class="mb-0"><?php echo APP_NAME; ?></h3>
             </div>
             <div class="col-6 text-end p-3">
                 <div class="dropdown">
@@ -22,7 +22,7 @@
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="login_form.html"><i
+                        <li><a class="dropdown-item" href="/isep_ginasio/private/views/login_form.php"><i
                                     class="fa-solid fa-right-from-bracket me-2"></i>Sair</a></li>
                     </ul>
                 </div>
