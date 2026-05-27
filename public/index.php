@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
     <meta charset="UTF-8">
@@ -26,7 +26,7 @@
     <nav class="bng-navbar">
         <!-- Logo e Nome -->
         <div>
-            <img src="assets/img/gym125_white.png" alt="Logo da empresa">
+            <img src="assets/img/gym125.png" alt="Logo da empresa">
             <h3>ISEP Ginásio</h3>
         </div>
         <!-- Links centrais -->
@@ -40,7 +40,7 @@
         </div>
         <!-- Área Cliente -->
         <div class="nav-cliente">
-            <a href="login_form.html" target="_blank">Área Restrita</a>
+            <a href="login.php">Área Restrita</a>
         </div>
     </nav>
     <!-- Seção "Conteudo da pagina" -->
