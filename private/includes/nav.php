@@ -22,7 +22,7 @@
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="/isep_ginasio/private/views/login_form.php"><i
+                        <li><a class="dropdown-item" href="/isep_ginasio/public/login.php"><i
                                     class="fa-solid fa-right-from-bracket me-2"></i>Sair</a></li>
                     </ul>
                 </div>
